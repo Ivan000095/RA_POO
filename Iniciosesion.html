@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ServiFinder</title>
+        <link rel="icon" type="image/x-icon" href="assets/326617-200.png"/>
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="css/login.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0/css/bootstrap.min.css">
+        <title>ServiFinder</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-form">
+                <form class="sing-in">
+                    <h2>Iniciar sesión</h2>
+                    <div class="social-networks">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                    <span>Use su correo y contraseña</span>
+                    <div class="container-input">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" placeholder="Correo">
+                    </div>
+                    <div class="container-input">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <button class="button">Iniciar sesión</button>
+                    <a href="index.html"><button class="button" id="btn-sign-in">Cancelar</button></a>
+                </form>
+            </div>
+
+            <div class="container-form">
+                <form class="sing-up">
+                    <h2>Registrarse</h2>
+                    <div class="social-networks">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                    <span>Use su correo electronico para registrase</span>
+                    <div class="container-input">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="container-input">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" placeholder="Correo">
+                    </div>
+                    <div class="container-input">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <button class="button">Registrarse</button>
+                </form>
+            </div>
+            <div class="container-welcome">
+                <div class="welcome-sing-up welcome">
+                    <h3>Bienvenido</h3>
+                    <p>Ingrese sus datos personales para usar todas las fuciones</p>
+                    <button class="button" id="btn-sign-up">Registrarse</button>
+                </div>
+                <div class="welcome-sing-in welcome">
+                    <h3>¡Hola!</h3>
+                    <p>Ingrese sus datos personales para usar todas las fuciones</p>
+                    <button class="button" id="btn-sign-in">Iniciar sesión</button>
+                    <a href="index.html"><button class="button" id="btn-sign-in">Cancelar</button></a>
+                </div>
+            </div>
+        </div>
+        <script src="js/login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
